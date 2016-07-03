@@ -95,7 +95,7 @@ table {
 }
 
 header{
-  height: 164px;
+  height: 175px;
   }
 
 
@@ -103,6 +103,7 @@ header{
 .logo{
 	display: inline-block;
 	margin-left: 30px;
+	margin-top: 11px;
 }
 
 .contacts {
@@ -136,7 +137,7 @@ header{
 .content{
 		height: 816px;
 		width: 1000px;
-		margin-top: 11px;
+
 }
 
 
@@ -220,31 +221,35 @@ ul.panel > li:hover > ul.submenu {
 
 
 .ingo1{
+	display: block;
 	height: 150px;
 	border-bottom: 1px solid #c7cacf;
 }
 
-.left_block>.ingo1>p{
+.left_block>.ingo1>li{
 	font: 14px Tahoma;
   color: #424c43;
   padding-left: 16px;
 	line-height: 24px;
 	}
-
-.left_block>.ingo1>p:first-child{
-	font: 18px Tahoma;
+.left_block>.ingo1>li:first-child{
+	padding-left: 0;
+}
+.left_block>.ingo1>li>h3{
+	font-family: Tahoma;
   color: #424c43;
-	padding-left: 52px;
+	text-align: center;
 	font-weight: 600;
-	line-height: 35px;
+	line-height: 30px;
 }
 
 .ingo2{
+	display: block;
 	height: 257px;
 	border-bottom: 1px solid #c7cacf;
 }
 
-.left_block>.ingo2>p{
+.left_block>.ingo2>li{
 	font: 14px Tahoma;
   color: #424c43;
   padding-left: 16px;
@@ -263,44 +268,51 @@ ul.panel > li:hover > ul.submenu {
 }
 
 .ingo4{
+	display: block;
 	height: 290px;
 	border-bottom: 1px solid #c7cacf;
 }
 
-.right_block>.ingo4>p{
+.right_block>.ingo4>li{
 	font: 14px Tahoma;
   color: #424c43;
   padding-left: 16px;
 	line-height: 24px;
 	}
 
-.right_block>.ingo4>p:first-child{
-	font: 18px Tahoma;
+
+.right_block>.ingo4>li:first-child{
+		padding-left: 0;
+	}
+
+.right_block>.ingo4>li>h3{
+	font-family: Tahoma;
   color: #424c43;
-	padding-left: 52px;
+	text-align: center;
 	font-weight: 600;
-	line-height: 35px;
+	line-height: 30px;
+
 }
 
 .ingo5{
+	display: block;
 	height: 176px;
 	border-bottom: 1px solid #c7cacf;
 }
 
-.right_block>.ingo5>p{
+.right_block>.ingo5>li{
 	font: 14px Tahoma;
   color: #424c43;
   padding-left: 16px;
-	line-height: 24px;;
+	line-height: 24px;
 	}
 
 .ingo6{
-		height: 75px;
-
-
+	display: block;
+	height: 75px;
 	}
 
-.right_block>.ingo6>p{
+.right_block>.ingo6>li{
 		font: 14px Tahoma;
 	  color: #424c43;
 	  padding-left: 16px;
